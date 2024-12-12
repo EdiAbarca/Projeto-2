@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; //array ou lista sempre vai entre colchetes. A primeira posição sempre será a zero
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 console.log (numeroSecreto);
 let tentativas = 1;
@@ -7,7 +7,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    //responsiveVoice.speak(texto, 'Brazilian Portuguese Female', 
+    //responsiveVoice.speak(texto, 'Brazilian Portuguese Female', // responsive voice está ligado no arquivo index.html na linha 7
       //  {rate: 1.2});
       if ('speechSynthesis' in window) { // código de narração nativo dos navegadores principais
         let utterance = new SpeechSynthesisUtterance(texto);
