@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; //array ou lista sempre vai entre colchetes. A primeira posição sempre será a zero
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 console.log (numeroSecreto);
 let tentativas = 1;
